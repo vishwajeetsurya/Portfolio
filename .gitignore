@@ -10,7 +10,6 @@ node_modules/
 
 # Dependency directories
 /vendor/
-
 # Logs and generated files
 logs/
 *.log
