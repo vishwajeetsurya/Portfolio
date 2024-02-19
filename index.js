@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, "dist")))
 //     origin: "http://localhost:5173",
 //     credentials: true
 // }))
-// app.use(cors({}))
+app.use(cors())
 const PORT = process.env.PORT || 5000;
 
 
